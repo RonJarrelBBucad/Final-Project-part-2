@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px; 
+    background-color: beige;
+}
+
+
+/* Layout Styling */
+
+
+nav {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    box-sizing: border-box;
+}
+
+nav ul li {
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid #888;
+}
+
+/* Container for Main and Sidebar */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Main Content Styling */
+main {
+    flex: 3;
+    background-color: #eee;
+    padding: 20px;
+    border: 1px dashed #999;
+}
+
+/* Sidebar Styling */
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 30px;
+    border: 1px dashed #999; 
+    float: left;
+}
+
+/* Image Container Styling */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img {
+    width: 100px;
+    height: 80px; 
+    transition: width 1s; 
+    transition: height 1s; 
+
+}
+
+img:hover { 
+    width: 110px; 
+    height: 105px;
+}
+/* Footer Styling */
+footer, article {
+    
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px; 
+    margin-left: 50px; 
+
+}
+
+/* Placeholder Elements */
+nav, main, aside, footer, article {
+    color:#000000;
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+}
+
+a:link {
+    background-color: cyan;
+    
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 1px;
+    }
+    a:visited {
+    background-color: green;
+    }
+    a:hover {
+    background-color:
+    black;
+    }
+    a:active {
+    background-color:
+    red;
+    } 
+
+a.one:link {color: cyan;} 
+a.one:visited {color: red;}
+a.one:hover {font-size: 150% }
+
+a.two:link {color: cyan;} 
+a.two:visited {color: green;}
+a.two:hover {font-size: 150% } 
+
+a.three:link {color: cyan;} 
+a.three:visited {color: yellow;}
+a.three:hover {font-size: 150% } 
+
+a.four:link {color: cyan;} 
+a.four:visited {color: black;}
+a.four:hover {font-size: 150% } 
+
+li:nth-child(2) {
+    font-weight: bold;
+    color: green;
+}
+
+li:nth-child(1)
+{ 
+    font-weight: bold; 
+    color: green;
+}
+
+a[target="_blank"] {
+    color: red;
+    font-weight: bold;
+    }
+    
